@@ -1,0 +1,16 @@
+{
+  "name": "Globgram",
+  "version": "1.0.1",
+  "build": 3,
+  "id": "com.taleb.globgram",
+  "fullscreen": false,
+  "orientation": "default",
+
+  "android": {
+    "permissions": [
+      "android.permission.RECORD_AUDIO",
+      "android.permission.CAMERA"
+    ],
+    "autoGrantPermissions": true        // ← نکتهٔ مهم
+  }
+}
